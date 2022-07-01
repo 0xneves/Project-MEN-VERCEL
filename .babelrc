@@ -1,0 +1,13 @@
+{
+  // 40s with original builder is 20s
+  "presets": [
+    [
+      "next/babel",
+      {
+        "styled-jsx": {
+          "plugins": ["styled-jsx-plugin-postcss"]
+        }
+      }
+    ]
+  ]
+}
