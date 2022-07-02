@@ -206,7 +206,7 @@ const Hero = () => {
           that in the near future, projects with no business plan, or partnerships, will cease to exist.
           Thus, we rather be a mid-long term software house, providing products, education and services.
           If you are looking to 'ape' in, like these hyped nft approaches, here won't be the case. We'll 
-          provide actually useful resources for holders and slowly build our way into the market."
+          provide actual useful resources for holders and slowly build our way into the market."
         />
         <RoadMap
           color={activeColor}
