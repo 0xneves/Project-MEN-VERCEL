@@ -93,7 +93,7 @@ const Hero = () => {
           color4={adjascent2}
         />
       </GroupSection>
-      <GroupSection displayType="inline-blocks">
+      <GroupSection displayType="inline-blocks mt-40">
         <RoadMap
           color={activeColor}
           season="Q1"

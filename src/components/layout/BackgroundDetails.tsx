@@ -61,8 +61,9 @@ const BackgroundDetails = (props: IBackgroundDetailsProps) => {
               position: relative;
               width: 0;
               height: 0;
-              border-bottom: 100px solid ${props.color};
+              border-bottom: 100px solid #a6fbf5;
               border-left: 100px solid transparent;
+              color: palevioletred;
             }
             .rotate2 {
               position: absolute;
@@ -75,7 +76,7 @@ const BackgroundDetails = (props: IBackgroundDetailsProps) => {
               position: relative;
               width: 0;
               height: 0;
-              border-bottom: 100px solid ${props.color};
+              border-bottom: 100px solid #cdaefb;
               border-right: 150px solid transparent;
             }
 
@@ -87,7 +88,7 @@ const BackgroundDetails = (props: IBackgroundDetailsProps) => {
               right: 100px;
               transform: translate(200px, 114px);
               border-top: 50px solid transparent;
-              border-right: 100px solid ${props.color};
+              border-right: 100px solid #cfc3fb;
               border-bottom: 50px solid transparent;
               z-index: 50;
             }
@@ -105,7 +106,7 @@ const BackgroundDetails = (props: IBackgroundDetailsProps) => {
               width: 0;
               height: 0;
               border-top: 50px solid transparent;
-              border-left: 100px solid ${props.color};
+              border-left: 100px solid #cfc3fb;
               border-bottom: 50px solid transparent;
             }
             .rotate4 {

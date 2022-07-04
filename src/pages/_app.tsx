@@ -5,12 +5,14 @@ import { AppProps } from 'next/app';
 // import MetaMaskAccountProvider from '../components/MetaMaskAccountProvider';
 import '../styles/global.css';
 
-const MyApp = ({ Component, pageProps }: AppProps) => (
-  <MetaMaskProvider>
-    <ThemeProvider attribute="class">
-      <Component {...pageProps} />
-    </ThemeProvider>
-  </MetaMaskProvider>
-);
+const MyApp = ({ Component, pageProps }: AppProps) => {
+  return (
+    <MetaMaskProvider>
+      <ThemeProvider attribute="class" defaultTheme="light">
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </MetaMaskProvider>
+  );
+};
 
 export default MyApp;
