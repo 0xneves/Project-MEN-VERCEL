@@ -6,15 +6,14 @@ type ITraitsProps = {
 
 const Traits = (props: ITraitsProps) => {
   const traits = [
-    "armaniocean",
-    "dreamingawake",
-    "fullhair",
-    "nerdglasses",
-    "sunglasses",
-    //"shoesair",
-    "shoesjordan",
-    "suitcasebrown",
-    "suitcasepinky",
+    'armaniocean',
+    'dreamingawake',
+    'fullhair',
+    'nerdglasses',
+    'sunglasses',
+    'shoesjordan',
+    'suitcasebrown',
+    'suitcasepinky',
   ];
 
   return (
