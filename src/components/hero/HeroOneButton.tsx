@@ -248,7 +248,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
             opacity: 1;
           }
           100% {
-            transform: translateY(0%);
+            transform: translateX(0%);
           }
         }
         @keyframes moveYUp {
