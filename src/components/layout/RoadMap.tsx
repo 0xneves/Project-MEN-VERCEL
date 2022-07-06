@@ -10,7 +10,7 @@ type IRoadMapProps = {
 
 const RoadMap = (props: IRoadMapProps) => {
   return (
-    <div className="max-w-screen-lg mx-auto px-6 md:px-3 flex pt-20 pb-28">
+    <div className="max-w-screen-lg mx-auto px-6 md:px-3 flex pb-28">
       <div className="spine items-start md:items-center flex-col md:flex-row">
         <div className="season card-season-control">{props.season}</div>
         <div className="card pl-0 md:pl-18 card-border-control">

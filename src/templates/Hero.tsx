@@ -8,8 +8,10 @@ import { HeroOneButton } from '../components/hero/HeroOneButton';
 import { HeroOneDescription } from '../components/hero/HeroOneDescription';
 import { BackgroundDetails } from '../components/layout/BackgroundDetails';
 import { GroupSection } from '../components/layout/GroupSection';
+import { Proposal } from '../components/layout/Proposal';
 import { RoadMap } from '../components/layout/RoadMap';
 import { Section } from '../components/layout/Section';
+import { Traits } from '../components/layout/Traits';
 import { Navbar } from '../components/navigation/Navbar';
 // import { getMainContract } from '../utils/GetContracts';
 
@@ -80,7 +82,6 @@ const Hero = () => {
           <HeroOneDescription
             title="10,000"
             title2="unique NFTs"
-            // description="membership for hodlers"
             color={activeColor}
           />
         </Section>
@@ -93,7 +94,30 @@ const Hero = () => {
           color4={adjascent2}
         />
       </GroupSection>
-      <GroupSection displayType="inline-blocks mt-40">
+      <GroupSection>
+        <Proposal
+          title="Huh.. What is this place? Where am I?"
+          description5="Hello, so glad you found us :D
+          "
+          description="$MEN is the first showcase of our technologies to the 
+          crypto community. A joint force in favor of the same vision, brought you a NFT Collection, that has 
+          utility attached, thus, intrinsic value.
+          "
+          description2="We are an 0xagon product, a group of enthusiasts and entrepreneur friends that wish to build for web3.
+          "
+          description3="$MEN is not just a NFT. It can be negotiated as a vanity item? Yes of course, but it also comes with a feel benefits: 
+          Private discord chat, early communication with developers, feeless projects launched by 0xagon, shares/staking rewards from non-hodlers 
+          accrued fees, NFTs giveaway and much more to come!
+          "
+          description4="Truth is.. We developed a bunch of cool ideas that are already prototyped, and are in the proccess of being documented. We are also
+          creating strategic planning and fiting each launch in a sequence that will work in favor of the entire ecosystem.
+          Amoung our products we have a compression algorithm that reduces costs of on-chain minting using dynamic SVGs, charity proxy for protocols,
+          borrow/lending using NFT as collateral and much more.
+          "
+        />
+      </GroupSection>
+      <Traits />
+      <GroupSection displayType="inline-blocks sm:mt-40">
         <RoadMap
           color={activeColor}
           season="Q1"

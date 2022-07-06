@@ -12,8 +12,8 @@ type IBackgroundDetailsProps = {
 
 const BackgroundDetails = (props: IBackgroundDetailsProps) => {
   return (
-    <div className="max-w-screen-lg mx-auto px-3 md:flex hidden">
-      <div className="spine">
+    <div className="max-w-screen-lg mx-auto px-3 xl:flex hidden">
+      <div className="spine spine-h">
         <Draggable>
           <div className="triangle-left"></div>
         </Draggable>
@@ -32,19 +32,22 @@ const BackgroundDetails = (props: IBackgroundDetailsProps) => {
             <div className="triangle-rotate3"></div>
           </div>
         </Draggable>
-        {/* <div className="rotate4">
-          <div className="triangle-rotate4"></div>
-        </div>
-        <div className="rotate5">
-          <div className="triangle-rotate5"></div>
-        </div> */}
         {props.children}
         <style jsx>
           {`
+            @media screen and (min-width: 1280px) {
+              .spine-h {
+                margin-top: 1px;
+              }
+            }
+            @media screen and (min-width: 1536px) {
+              .spine-h {
+                margin-top: 300px;
+              }
+            }
             .spine {
               z-index: 0;
               align-items: center;
-              height: 300px;
               width: 1024px;
               shape-outside: polygon(0 0, 100% 50%, 0 100%);
               background-color: transparent;
@@ -108,38 +111,6 @@ const BackgroundDetails = (props: IBackgroundDetailsProps) => {
               border-top: 50px solid transparent;
               border-left: 100px solid #cfc3fb;
               border-bottom: 50px solid transparent;
-            }
-            .rotate4 {
-              position: absolute;
-              right: 30px;
-              width: 100px;
-              height: 100px;
-              transform: translate(-240%, 40%) rotate(-77deg);
-              z-index: 50;
-            }
-            .triangle-rotate4 {
-              position: relative;
-              width: 0;
-              height: 0;
-              border-left: 200px solid transparent;
-              border-right: 60px solid transparent;
-              border-top: 115px solid ${props.color};
-            }
-            .rotate5 {
-              position: absolute;
-              right: 30px;
-              width: 100px;
-              height: 100px;
-              transform: scale(0.2, 0.2) translate(-700%, -350%) rotate(45deg);
-              z-index: 50;
-            }
-            .triangle-rotate5 {
-              position: relative;
-              width: 0;
-              height: 0;
-              border-top: 40px solid transparent;
-              border-left: 140px solid ${props.color};
-              border-bottom: 40px solid transparent;
             }
           `}
         </style>
