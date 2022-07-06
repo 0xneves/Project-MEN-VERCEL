@@ -14,10 +14,10 @@ const RoadMap = (props: IRoadMapProps) => {
       <div className="spine items-start md:items-center flex-col md:flex-row">
         <div className="season card-season-control">{props.season}</div>
         <div className="card pl-0 md:pl-18 card-border-control">
-          <div className="card-title">
+          <div className="card-title text-gray-600">
             <text className="dark:text-gray-200">{props.title}</text>
           </div>
-          <div className="card-description text-justify md:text-left pt-4 md:pt-0">
+          <div className="card-description text-gray-600 text-justify md:text-left pt-4 md:pt-0">
             <text className="dark:text-gray-200">{props.description}</text>
           </div>
         </div>
@@ -69,12 +69,10 @@ const RoadMap = (props: IRoadMapProps) => {
           }
           .card-title {
             @apply font-editundo text-3xl;
-            color: black;
             position: relative;
           }
           .card-description {
             @apply font-editundo text-xl;
-            color: black;
             line-break: auto;
             position: relative;
           }

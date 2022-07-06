@@ -235,13 +235,8 @@ const Hero = () => {
         <RoadMap
           color={activeColor}
           season="2023"
-          title="$HER"
-          description="
-          The $HER NFT. It will be an outstanding collection of 10,000 unique quantum NFTs, just as $MEN. 
-          Although, the only way to acquire $HER is by having the corresponding $MEN. 
-          One $MEN mints one $HER. 
-          The launch of $HER token will double the community size of holders.
-          It'll be up for the community and the invisible hands of the market to set a price."
+          title="Moon"
+          description=""
         />
       </GroupSection>
     </Background>
