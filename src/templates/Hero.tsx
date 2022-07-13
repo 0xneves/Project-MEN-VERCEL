@@ -81,7 +81,8 @@ const Hero = () => {
         <Section addExtras="pt-24 pb-32">
           <HeroOneDescription
             title="10,000"
-            title2="unique NFTs"
+            title2="Digital"
+            title3="Collectibles"
             color={activeColor}
           />
         </Section>
