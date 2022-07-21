@@ -40,7 +40,11 @@ const Navbar = () => {
             'Connect Wallet'} */}
         {/* {status === 'connected' ? 'Connected' : 'Connect Wallet'} */}
         {/* </button> */}
-
+        <div className="mouse-hover navbar flex h-6 items-center font-editundo font-medium text-xl text-gray-800 mr-8 dark:text-gray-200">
+          <Link href="https://docs.nonfungible.men">
+            <a className="font-editundo dark:text-gray-200">Docs</a>
+          </Link>
+        </div>
         <button
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           className="h-20 w-20 flex items-center justify-center"

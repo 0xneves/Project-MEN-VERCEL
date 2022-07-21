@@ -113,7 +113,7 @@ const HeroOneButton = (props: IHeroOneButtonProps) => {
           />
           <div className="balloon-content pos font-senior text-xs py-4 pl-6 ref-tw">
             Mint unavailable. More on{' '}
-            <a href="https://twitter.com/menbershipnft/">Twitter</a>
+            <a href="https://twitter.com/nonfungible_men/">Twitter</a>
           </div>
         </div>
         <img

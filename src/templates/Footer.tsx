@@ -11,7 +11,7 @@ const Footer = () => (
       <CenteredFooter
         iconList={
           <>
-            <Link href="https://twitter.com/menbershipnft">
+            <Link href="https://twitter.com/nonfungible_men">
               <a className="px-2">
                 <Image
                   src="/twitterlogo.png"
@@ -46,7 +46,7 @@ const Footer = () => (
           </Link>
         </li> */}
         <li>
-          <Link href="https://docs.0xagon.xyz">
+          <Link href="https://docs.nonfungible.men">
             <a className="font-senior text-sm dark:text-gray-200">Docs</a>
           </Link>
         </li>
